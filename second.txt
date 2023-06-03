@@ -1,0 +1,118 @@
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~
+$ pwd
+/c/Users/sathiyapriyan
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~
+$ cd desktop
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop
+$ pwd
+/c/Users/sathiyapriyan/desktop
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop
+$ mkdir assignment1
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop
+$ cd assignment1
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1
+$ touch first.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1
+$ ls
+first.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1
+$ git init
+Initialized empty Git repository in C:/Users/sathiyapriyan/Desktop/assignment1/.git/
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git add .
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git commit -m "adding first.txt"
+[master (root-commit) d0cc494] adding first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git log
+commit d0cc494b8e11e09f23554efc35637ded56118d4a (HEAD -> master)
+Author: SATHIYAPRIYAN7 <sathiyapriyan7@gmail.com>
+Date:   Sat Jun 3 19:53:04 2023 +0530
+
+    adding first.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ pwd
+/c/Users/sathiyapriyan/desktop/assignment1
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ touch second.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git add .
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ ls
+first.txt  second.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git commit -m "adding second.txt"
+[master bb35d34] adding second.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ rm first.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ ls
+second.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git add .
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git commit -m "removing first.txt"
+[master 5df1835] removing first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 first.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git log
+commit 5df1835fee88c621fc59e2bfbdb9f214f71ce347 (HEAD -> master)
+Author: SATHIYAPRIYAN7 <sathiyapriyan7@gmail.com>
+Date:   Sat Jun 3 19:58:32 2023 +0530
+
+    removing first.txt
+
+commit bb35d34512be204375b30274aa778e2634e23a2e
+Author: SATHIYAPRIYAN7 <sathiyapriyan7@gmail.com>
+Date:   Sat Jun 3 19:56:22 2023 +0530
+
+    adding second.txt
+
+commit d0cc494b8e11e09f23554efc35637ded56118d4a
+Author: SATHIYAPRIYAN7 <sathiyapriyan7@gmail.com>
+Date:   Sat Jun 3 19:53:04 2023 +0530
+
+    adding first.txt
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git remote add origin https://github.com/SATHIYAPRIYAN7/sathiyapriyan.git
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 682 bytes | 227.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/SATHIYAPRIYAN7/sathiyapriyan.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~/desktop/assignment1 (master)
+$
