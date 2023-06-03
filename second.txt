@@ -1,6 +1,6 @@
 sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~
 $ pwd
-/c/Users/sathiyapriyan
+/c/Users/sathiyapriyan.
 
 sathiyapriyan@LAPTOP-6640ALE4 MINGW64 ~
 $ cd desktop
